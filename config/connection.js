@@ -5,7 +5,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    password: '',
+    password: 'root',
     database: "burgers_db"
 });
 
@@ -20,7 +20,7 @@ if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection({
         host: '127.0.0.1',
         user: "root",
-        password: '',
+        password: 'root',
         database: 'burgers_db'
     });
 };

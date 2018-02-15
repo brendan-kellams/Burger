@@ -1,0 +1,24 @@
+body {
+    background-color: orange;
+  }
+
+  #top-bar {
+      text-align: center;
+  }
+  
+.container {
+    text-align: center;
+  }
+
+  #devouredBurger {
+      text-align: center;
+  }
+  
+  .header img.header-img {
+    width: 300px;
+  }
+  
+  #devouredList {
+      text-align: center;
+      width: 50%;
+  }
