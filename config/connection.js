@@ -1,6 +1,7 @@
 'use strict';
 
 var mysql = require('mysql');
+let connection
 
 // var connection = mysql.createConnection({
 //     host: '127.0.0.1',
