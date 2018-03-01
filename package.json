@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/brendan-kellams/Burger/issues"
   },
-  "homepage": "https://github.com/brendan-kellams/Burger#readme",
+  "homepage": "https://github.com/brendan-kellams/Burger",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

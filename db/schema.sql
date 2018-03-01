@@ -1,12 +1,9 @@
-CREATE DATABASE IF NOT EXISTS burgers_db;
-USE burgers_db;
-
-CREATE TABLE burgers (
-    id INTEGER NOT NULL AUTO_INCREMENT,
-    burger_name VARCHAR (255) NOT NULL,
-    devoured BOOLEAN DEFAULT FALSE,
-    date TIMESTAMP,
-    PRIMARY KEY (id)
+CREATE TABLE `burgers` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `burger_name` VARCHAR (255) NOT NULL,
+    `devoured` BOOLEAN DEFAULT FALSE,
+    `date` TIMESTAMP,
+    PRIMARY KEY (`id`)
 );
 
 INSERT INTO burgers (burger_name, devoured) VALUES ('Cheese Burger', FALSE);
